@@ -184,15 +184,26 @@ The whole platform is a complex system composed by several modules, each with a 
   
     - #### open
   
-      If you create cards of a specific topic but wants to wellcome cards from other authors you can create an oppened collection album. Your followers may use your cards to put in the album or use somebody else's card if it accepted by the album's filter.
+      If you create cards of a specific topic but you wellcome cards from other authors, you can create an oppened collection album. Your followers may use your cards to put in the album or use somebody else's card if it accepted by the album's filter.
   
       - #### temlate
     
-        A more specific kind of open album is when you proide a template to use to anyone who attempt to creat  a card for this kind of album.
+        A more specific kind of open album is when you proide a template to use by anyone who attempt to creat a card for your of album.
     
-        The filter of this album requires for the card to use the template provided by this album for this goal. this way you can accept other people's card and assert all cards at least follows the same pattern determined by the template.
+        The filter of this album requires for the card to use the template provided by you for this goal. This way you can accept other people's card and assert all cards at least follows the same pattern determined by the template.
 
 - ### Content Cleaner Cats (categorizers smart contract)
+
+    *Content Cleaner Cats* is a submodule of this platform dedicated completely to score, depure and categorize any kind of content in a decentralized, democratic and censorship-resistant way.     
+    
+    Playing with the word *categorizer*, we call *cats* the users who dedicate some time and effort to perform the difficult task of cleaning any content published by other users.
+
+    In the context of Cards & Tokens, this allows us to have a categorization of each card, not made by the card creator but by *cleaner cats* who will be rewarded for the job.
+
+    To carry this task on, this module implements its own economic model based on its own internal token.
+
+    
+
 
 # Economy
 
