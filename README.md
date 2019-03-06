@@ -10,26 +10,26 @@ Around this new concept we will create an ecosystem that will provide an enterta
 
 # Index
 
-- Abstract
-- Index
+- [Abstract](#abstract)
+- [Index](#index)
 - [Intro](#intro)
-- Problem description
-  - Customize publication
-  - Monetization
-  - Community
-  - Currency Inflation
-  - Content cleaning and categorization
-- Solution overview
-- Solution details
-  - Modules
-    - vapaeetokens
-    - boardgamebox
-    - cardsntokens
-    - categorizers
-  - Economy
-    - Tokens
-    - Rewards
-    - Inflation
+- [Problem description](#problem-description)
+  - [Customize publication](#customize-publication)
+  - [Monetization](#monetization)
+  - [Community](#cmmunity)
+  - [Currency Inflation](#currency-inflation)
+  - [Content cleaning and categorization](#content-cleaning-and-categorization)
+- [Solution overview](#solution-overview)
+- [Solution details](#solution-details)
+  - [Modules](#modules)
+    - [Vapaée Tokens (vapaeetokens smart contract)](#vapaée-tokens-vapaeetokens-smart-contract)
+    - [BG-Box (boardgamebox smart contract)](#bg-box-boardgamebox-smart-contract)
+    - [Cards & Tokens (cardsntokens smart contract)](#cards--tokens-cardsntokens-smart-contract)
+    - [Content Cleaner Cats (categorizers smart contract)](#content-cleaner-cats-categorizers-smart-contract)
+  - [Economy](#economy)
+    - [Tokens](#tokens)
+    - [Rewards](#rewards)
+    - [Inflation](#inflation)
 
 
 # Intro
