@@ -4,9 +4,9 @@ There are a lot of places on the Internet where people can post their content. W
 
 With the advent of blockchain technology, new systems are being created to solve some of these problems. Now we have alternatives like Stemmit or Synereo, which use cryptocurrencies to reward users who publish high quality content, delegating to the community itself the responsibility of selecting the best jobs and categorizing them in a decentralized and democratic way.
 
-The Cards & Tokens project aims to innovate over these proposals to give alternatives to these problems, taking full advantage of the features offered by this new technology and proposing a new publication format that we will call *Crypto Trading Card*. This new format is not only completely customizable and allows all kinds of multimedia content to be embedded, but it is also an extension of the classic concept of Token (cryptocurrency) implemented as an smart contract on the blockchain. In this way, users can make publications as if they were creating a new cryptocurrency with a predetermined supply, allowing them to monetize their work by selling or auctioning copies of their publication.
+The Cards & Tokens project aims to innovate over these proposals to give alternatives to these problems, taking full advantage of the features offered by this new technology and proposing a new publication format that we will call *Crypto Trading Card*. This new format is not only completely customizable and allows all kinds of multimedia content to be embedded, but it is also an extension of the classic concept of *token* (crypto currency) implemented as an smart contract on the blockchain. In this way, users can make publications as if they were creating a new crypto currency with a predetermined supply, allowing them to monetize their work by selling or auctioning copies of their publication.
 
-Around this new concept we will create an ecosystem that will provide an entertainment platform for users, and will export gamification and content categorization services to other applications generating the ideal context to enhance the value of the cards, beyond the intrinsic value they have for be an object of collection (due to its content and scarcity).
+Around this new concept we will create an ecosystem that will provide an entertainment platform for users, and will export gamification and content categorization services to other applications generating the ideal context to enhance the value of the cards, beyond the intrinsic value they already have for being an object of collection (due to its content and scarcity).
 
 # Index
 
@@ -34,11 +34,11 @@ Around this new concept we will create an ecosystem that will provide an enterta
 
 # Intro
 
-In the last two years we have seen a vertiginous increase in fundraising through the implementation of the ICOs, which has only been possible after the invention of the blockchain and smart contracts. However, this method is reserved only for companies and groups of full time developers devoting a great effort to make a value proposal with a large project and raise money by selling tokens. It is very difficult (if not impossible) for a single person to organize a successful ICO and raise money.
+In the last two years we have seen a vertiginous increase in fundraising through the implementation of the ICOs, which has only been possible after the invention of the blockchain and smart contracts. However, this method is reserved only for companies and groups of full time developers devoting a great effort to make a value proposal with a large project. It is very difficult (if not impossible) for a single person to organize a successful ICO and raise money.
 
-Cards & Tokens provides to content creators with a new publication format that allows them to tokenize their work and have "copies" of their publications. Then they can sell, auction or give away all o some of the copies in exchange for tokens to monetize their work. This way any youtuber, instagramer, photographers, illustrators, designers, musicians and all kinds of content creators can have their own Initial Card Offering (ICO) for each publication they make.
+Cards & Tokens provides to content creators with a new publication format that allows them to tokenize their work and have *copies* of their publications. Then they can sell, auction or give away all o some of the copies in exchange for tokens to monetize their work. This way any youtuber, instagramer, photographers, illustrators, designers, musicians and all kinds of content creators can have their own *Initial Card Offering* (ICO) for each publication they make.
 
-Within the world of cryptocurrencies, the Tokens take their value from the project to which they belong. As the project progresses and its popularity increases, it is expected that the value of the Token will rise as well. In the context of Cards & Tokens, the cards not only obtain their value from their content and scarcity, but they will obtain points as they popularity rises that will make the card to level up. Within this platform these cards will be object of gaming in many different proposals of entertainment.
+Within the world of crypto currencies, the tokens take their value from the project to which they belong. As the project progresses and its popularity increases, it is expected that the value of the token will rise as well. In the context of Cards & Tokens, the cards not only obtain their value from their content and scarcity, but they will obtain points as their popularity rises that will make the card to level up. Within this platform these cards will be object of gaming in many different proposals of entertainment and the higher the level of the card the better for its owner.
 
 # Problem description
 
@@ -72,7 +72,7 @@ Cards & Tokens will offer many services that can be purchased only with the main
 
 ## Content cleaning and categorization
 
-When you have a centraliced platform like facebook os youtube, you will face specific rules that you must follow and there will be a police to hunt you down if you don't. But in decentrliced systems like Steemit we don't have that kind of content depuration. Instead we have auto-proclamed depurators with a lot of power (whales) imposing their will and their ethics. But the platforma was not thoght with this mind, there's no written rules for that.
+When you have a centraliced platform like facebook os youtube, you will face specific rules that you must follow and there will be a police to hunt you down if you don't. But in decentrliced systems like Steemit we don't have that kind of content depuration. Instead we have auto-proclamed depurators with a lot of power (whales) imposing their will and their ethics. But the platfor was not thoght with this mind, there's no written rules for that.
 
 Cards & Tokens dedicates a complete submodule to solve this cleaning and categorization problem, which involves a subeconomy with services and rewards, reaching a consensus over content depuration.
 
@@ -96,21 +96,21 @@ The whole platform is a complex system composed by several modules, each with a 
 
     Vapaée is the company behind this project and will be responsible for many more projects to come. Each introducing its own token. All those tokens will be implemented in the **vapaeetokens** module.
 
-    It implements the basic *transfer*, *open*, *issue* and *burn* default curency actions but add some other features like auto-claim airdrop, token exchange orders and token lock and staking and much more.
+    It implements the basic *transfer*, *open*, *issue* and *burn* default curency actions but add some other features like auto-claim airdrop, token exchange orders, token auction, token lock, token staking and much more.
 
 - ### BG-Box (boardgamebox smart contract)
 
     Board Game Box (or BG-Box) it's a low-level module that exports several abstract gamification services and Cards & Tokens consumes some of those services.
 
-    On the most basic level, BG-Box provides a profile implementation where any blockchain account can register as a publisher or as a Dapp (with a smart contract on the chain). Those profiles are the actors of this platform and will be referenced as owners and authors of whichever other concept represented in any module.
+    On the most basic level, BG-Box provides a profile implementation where any blockchain account can register as a *publisher* or as a *dapp* (with a smart contract on the chain). Those profiles are the actors of this platform and will be referenced as owners and authors of whichever other concept represented in any module.
     
     One of the most low-level services of this module is the abstract concept of item and its containers. This modules implements this two concepts, allowing registered profiles create items and even define new ones. It also manages the ownership and authorship of any instance of any item or container.
 
     It also manages the capacity of containers. It asserts that every virtual object has its own place inside a correct container belonging to its owner, and that no place is double-used by two different objects (unless its item type definition says so).
 
-    Cards & Tokens acts like any other client for this module. It registers a profile as an app, and defines the *card* as an item and two kind of containers: the *inventory* and the *album*.
+    Cards & Tokens acts like any other client for this module. It registers a profile as a *dapp*, and defines the *card* as an item and two kind of containers: the *inventory* and the *album*.
     
-    Users registered as publishers, will be able to create concrete cards giving them a unique name within the app name space. After that, each author of each card will issue copies of those cards for selling them, autioning them or for giving them away.
+    Users registered as publishers, will be able to create concrete cards giving them a unique name within the *dapp* name space. After that, each author of each card will issue copies of those cards for selling them, autioning them or for giving them away.
 
     Finally, other users can collect and trade those copies and everything is managed by this module.
 
@@ -130,9 +130,9 @@ The whole platform is a complex system composed by several modules, each with a 
 
   - #### Cards Level
 
-    At the moment that any card is published, it has none contact with the public. Therefore has zero points accumulated and its level is zero.
+    At the moment that a card is published, it has none contact with the public. Therefore has zero points accumulated and its level is zero.
     
-    Once made public, a card will start te receive points, mathematically deduced from the social acceptance and public evaluation.
+    Once made public, a card will start receiving points, mathematically deduced from the social acceptance and public evaluation.
 
     It will start to receive *likes*, *comments* and being shared with more and more people.
     
@@ -146,31 +146,31 @@ The whole platform is a complex system composed by several modules, each with a 
 
     Another concept implemented in this module is the album in all its flavors. Any Album should be considered as a specific topic, to which any user can subscribe and have her/his own collection of cards.
     
-    All albums are made by a user who sets a specific filter that defines which cards are allowed inside the album. All cards are supposed to have a categorization that defines which type of content is has. The creator bust also configure a number of pages, how many and where to put the slots.
+    All albums are made by a user who sets a specific filter that defines which cards are allowed inside the album. All cards are supposed to have a categorization that defines which type of content is has. The creator must also configure how many pages will have the album, how many slots on each page and where each slot will be located on the page.
 
-    Any body can define a album and any body can start collecting cards for a specific album. All the collectors of the same album compete with each other to have the most valuable collection. 
+    Any body can define a album and any body can start collecting cards for a specific album. All the collectors of the same album compete with each other to have the most valuable collection for that album. 
 
-    The top 10% most valuable collections will receive prizes and that means tokens for the owners of the winners copies, tokens for the authors of the winner cards and tokens for the album's authors, because they gather together a los of collectors under the same topic.  
+    The top 10% most valuable collections will receive prizes. That means tokens for the owners of the winners collections (because they gather the best cards together in the same collection), tokens for the authors of the winner cards (because they created great cards) and tokens for the album's authors (because they gather together a lots of collectors under the same topic).
 
-    As was mentioned earlier, there are different types of albums. Each kind of album satisfies a specific kind of need.
+    As it was mentioned earlier, there are different types of albums. Each kind of album satisfies a specific kind of need.
 
     - #### Collection
   
       A collection album is an album tat allows to collect any cards of a specific topic. A user collector may put a card inside a collection album if the card satisfies the album's filter. If so, the owner of the copy may put the card in whichever empty slot of any page of the album.
   
-      This last thing make more sense whe we have some albums with specific slots o pages, modifying the poits a the card grants it's hold on one of those slots. This gives more gaming complexity to the collection point competition.
+      This last thing make more sense when we have some albums with special slots o pages, that modify the points a the card grants if it's hold on one of those slots. This gives more gaming complexity to the collection point competition.
   
-      Generally there will be much more cards availables (accepted by the album's filters) for this kind album than the amount of slots the album has. That means that the users will have more cards that slots and will have to choose whichones to use or how to combine them to get the maximun score. That will drive speculation and fun.
+      Generally there will be much more cards availables (accepted by the album's filters) for this kind of album than the amount of slots the album has. That means that the users will have more cards that slots and will have to choose which ones to use or how to combine them to get the maximun score. That will drive speculation and fun.
       
-      All collection cards will have limited amount of copies (maximun supply) and the magnitude will be very low (tens or handreds) which makes the all rare.
+      All collection cards will have limited amount of copies (maximun supply) and the magnitude will be very low (tens or handreds) which makes them all rare.
       
-      This album can be eather open or closed.
+      This album can be either open or closed.
   
     - #### Numbered
   
       Numbered albums are like regular old classic paper albums and they are closed albums by definition. Everything is made by anticipation and all the content is ready to hit the public at the same time.  
       
-      Also, numbered cards are infinite supplied, which means that the author may sell infinite envelops of random group of several numbered cards.
+      Also, numbered cards are infinite supplied, which means that the author may sell infinite number of envelopes of random group of several numbered cards.
   
       In this kind of album, every collector has the same collection of cards, so the winners will be the top first to fill the album (having several check points. eg: rewards for the top first complete half album an full album).
   
@@ -178,7 +178,7 @@ The whole platform is a complex system composed by several modules, each with a 
   
       If you are a contnet creator this is kind of album will fit you best. 
   
-      You can create collection closed albums with showing your own style in every page, customize images and colors, with a fixed amount of slots. The filter of this allbum will aoly allow cards made by you.
+      You can create collection closed albums with showing your own style in every page, customize images and colors, with a fixed amount of slots. The filter of this allbum will only allow cards made by you.
   
       As time goes by, you will be publishing more material, each having its own destiny and reaching a certaing level. Your followers will speculate with the value of your cards, trying to adquire some copies of the most promising ones to put in their collection of your album.
   
