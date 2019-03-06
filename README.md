@@ -16,7 +16,7 @@ Around this new concept we will create an ecosystem that will provide an enterta
 - [Problem description](#problem-description)
   - [Customize publication](#customize-publication)
   - [Monetization](#monetization)
-  - [Community](#cmmunity)
+  - [Community](#community)
   - [Currency Inflation](#currency-inflation)
   - [Content cleaning and categorization](#content-cleaning-and-categorization)
 - [Solution overview](#solution-overview)
@@ -34,7 +34,7 @@ Around this new concept we will create an ecosystem that will provide an enterta
 
 # Intro
 
-We have seen in recent months a vertiginous increase in the collection of money through the implementation of ICOs, which has only been possible after the invention of the blockchain and smart contracts. However, this method is reserved almost exclusively for companies and groups of developers that are organized to devote a great effort to make a value proposal with a large project and raise money by selling Tokens. It is very difficult (if not impossible) for a single person to organize a successful ICO and raise money.
+In the last two years we have seen a vertiginous increase in fundraising through the implementation of the ICOs, which has only been possible after the invention of the blockchain and smart contracts. However, this method is reserved only for companies and groups of full time developers devoting a great effort to make a value proposal with a large project and raise money by selling tokens. It is very difficult (if not impossible) for a single person to organize a successful ICO and raise money.
 
 Cards & Tokens provides to content creators with a new publication format that allows them to tokenize their work and have "copies" of their publications. Then they can sell, auction or give away all o some of the copies in exchange for tokens to monetize their work. This way any youtuber, instagramer, photographers, illustrators, designers, musicians and all kinds of content creators can have their own Initial Card Offering (ICO) for each publication they make.
 
