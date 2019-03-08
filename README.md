@@ -196,11 +196,16 @@ The whole platform is a complex system composed by several modules, each with a 
 
     *Content Cleaner Cats* is a submodule of this platform dedicated completely to score, depure and categorize any kind of content in a decentralized, democratic and censorship-resistant way.     
     
-    Playing with the word *categorizer*, we call *cats* the users who dedicate some time and effort to perform the difficult task of cleaning any content published by other users.
+    Playing with the word *categorizer*, we call *cats* to users who dedicate some time and effort to perform the difficult task of cleaning any content published by other users.
 
-    In the context of Cards & Tokens, this allows us to have a categorization of each card, not made by the card creator but by *cleaner cats* who will be rewarded for the job.
+    In the context of Cards & Tokens, this allows us to have a categorization of each card, not made by the card creator but by *content cleaner cats* who will be rewarded if it's proven they did a good job.
 
-    To carry this task on, this module implements its own economic model based on its own internal token.
+    To carry out this task forward, this module implements its own economic system of services and rewards, to encourage users to be really good content cleaners and not fall into the degeneration that suffers from the Steem platform, where publishers can literally buy the votes and thus detract the system.
+
+    This module's economic system based on its own internal token, which will be implemented in **vapaeetokens** smart contract and will benefit from all the excelent features that all Vapaée tokens share.
+
+
+
 
     
 
