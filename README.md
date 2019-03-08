@@ -26,6 +26,7 @@ Around this new concept we will create an ecosystem that will provide an enterta
     - [BG-Box (boardgamebox smart contract)](#bg-box-boardgamebox-smart-contract)
     - [Cards & Tokens (cardsntokens smart contract)](#cards--tokens-cardsntokens-smart-contract)
     - [Content Cleaner Cats (categorizers smart contract)](#content-cleaner-cats-categorizers-smart-contract)
+- [Author disclaimer](#author-disclaimer)
 
 # Intro
 
@@ -214,13 +215,13 @@ The whole platform is a complex system composed by several modules, each with a 
 
   - #### Rewards
 
-    This modules will have its own token which will be used to reward *cats* for their cleaning work. The reward any *cat* receives, depends on how many other *cats* will come after and have the same opinion. Meaning that early *categorizers* will earn more tokens than later ones. Also the higher the *cat level* the bigger the reward.
+    This modules will have its own token which will be used to reward *cats* for their cleaning work. The rewards any *cat* receives, depends on how many other *cats* will come after and have the same opinion. Meaning that early *categorizers* will earn more tokens than later ones. Also the higher the *cat level* the bigger the reward.
 
     To finance these rewards, this module rely on the inflation of its currency.
 
   - #### Services
 
-    Content creators can pay for the categorization service of their cards. This does not ensure that the score will be good, but it makes the categorization reward more attractive, which will cause more cats to take the trouble to categorize the card.
+    Content creators can pay for the categorization service of their cards. This does not ensure that the score will be good, but it makes the categorization reward more attractive, which will cause more cats to take the time to categorize the card.
 
     For those who are interested in having a specific filter filled with cards (accepted for the filter), may pay for the work of finding cards that fits the filter restrictions. For example, you want to create a very specific topic album and you want your audience to have a lot of cards available to choose from. In this case, you can create a filter and pay to *cats* to watch cards and find the ones satisfying the requirements. Then, these cards will be shown as eligible for the album.
 
@@ -228,7 +229,7 @@ The whole platform is a complex system composed by several modules, each with a 
 
   - #### Black List
     
-    The system is designed to reward good categorizers and discourage vote buying. However, there will always be users who abuse the system in some unforeseen way and for that we need to use a more drastic method of punishment.
+    The system is designed to reward good categorizers and discourage vote buying. However, there will always be users who abuse the system in some unforeseen ways and for that we need to use a more drastic method punish bad behavior.
 
     That's why this module will implement a democratic mechanism to nominate cats and support nominations for black listing.
 
