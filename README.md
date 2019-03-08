@@ -26,11 +26,6 @@ Around this new concept we will create an ecosystem that will provide an enterta
     - [BG-Box (boardgamebox smart contract)](#bg-box-boardgamebox-smart-contract)
     - [Cards & Tokens (cardsntokens smart contract)](#cards--tokens-cardsntokens-smart-contract)
     - [Content Cleaner Cats (categorizers smart contract)](#content-cleaner-cats-categorizers-smart-contract)
-  - [Economy](#economy)
-    - [Tokens](#tokens)
-    - [Rewards](#rewards)
-    - [Inflation](#inflation)
-
 
 # Intro
 
@@ -194,6 +189,7 @@ The whole platform is a complex system composed by several modules, each with a 
 
 - ### Content Cleaner Cats (categorizers smart contract)
 
+
     *Content Cleaner Cats* is a submodule of this platform dedicated completely to score, depure and categorize any kind of content in a decentralized, democratic and censorship-resistant way.     
     
     Playing with the word *categorizer*, we call *cats* to users who dedicate some time and effort to perform the difficult task of cleaning any content published by other users.
@@ -202,40 +198,40 @@ The whole platform is a complex system composed by several modules, each with a 
 
     To carry out this task forward, this module implements its own economic system of services and rewards, to encourage users to be really good content cleaners and not fall into the degeneration that suffers from the Steem platform, where publishers can literally buy the votes and thus detract the system.
 
-    This module's economic system based on its own internal token, which will be implemented in **vapaeetokens** smart contract and will benefit from all the excelent features that all Vapaée tokens share.
+    This module's economic system is based on its own internal token, which will be implemented in **vapaeetokens** smart contract and will benefit from all the excelent features that all Vapaée tokens share.
 
-
-
-
-    ----------
+    The complete description of this module escapes the scope of this white paper, but below we will see a summary of the most relevant characteristics.
 
   - #### Reputation
     
-    Next to any card you will find little panel to give your opinion over the card, like it, categorize it, etc.
+    Next to any card you will find a little panel to give your opinion over the card, like it, categorize it, etc.
 
     Every time you pronounce your self on a card, your opinion is evaluated with respect to the card opinions' history to determine if you are supporting the majority or you are contradicting it.
 
-    Then your reputation increases or not, dependingon how many more users pronounce themselves after you, and support your opinion or not.
+    Then your reputation increases or not, depending on how many more users pronounce themselves after you, and support your opinion or not.
 
-    Any user may start giving his or her opinion on any content and start earning reputation points. The more points you have the higher is your Cat level.
+    Any user may start giving his or her opinion on any content and start earning reputation points. The more points you have the higher is your *cat level*.
 
   - #### Rewards
 
-    
+    This modules will have its own token which will be used to reward *cats* for their cleaning work. The reward any *cat* receives, depends on how many other *cats* will come after and have the same opinion. Meaning that early *categorizers* will earn more tokens than later ones. Also the higher the *cat level* the bigger the reward.
+
+    To finance these rewards, this module rely on the inflation of its currency.
 
   - #### Services
+
+    Content creators can pay for the categorization service of their cards. This does not ensure that the score will be good, but it makes the categorization reward more attractive, which will cause more cats to take the trouble to categorize the card.
+
+    For those who are interested in having a specific filter filled with cards (accepted for the filter), may pay for the work of finding cards that fits the filter restrictions. For example, you want to create a very specific topic album and you want your audience to have a lot of cards available to choose from. In this case, you can create a filter and pay to *cats* to watch cards and find the ones satisfying the requirements. Then, these cards will be shown as eligible for the album.
+
+    The module's token will be used to pay for these services.
+
   - #### Black List
     
-    
+    The system is designed to reward good categorizers and discourage vote buying. However, there will always be users who abuse the system in some unforeseen way and for that we need to use a more drastic method of punishment.
 
+    That's why this module will implement a democratic mechanism to nominate cats and support nominations for black listing.
 
+# Author disclaimer
 
-
-# Economy
-
-## Tokens
-
-## Rewards
-
-## Inflation
-
+This is the first draft version of the Cards & Tokens white paper. It reflects the future implementation plans but it may be subject to changes.
