@@ -186,7 +186,7 @@ The whole platform is a complex system composed by several modules, each with a 
   
       If you create cards of a specific topic but you wellcome cards from other authors, you can create an oppened collection album. Your followers may use your cards to put in the album or use somebody else's card if it accepted by the album's filter.
   
-      - #### temlate
+      - #### template
     
         A more specific kind of open album is when you proide a template to use by anyone who attempt to creat a card for your of album.
     
@@ -202,7 +202,28 @@ The whole platform is a complex system composed by several modules, each with a 
 
     To carry this task on, this module implements its own economic model based on its own internal token.
 
+    ----------
+
+  - #### Reputation
     
+    Next to any card you will find little panel to give your opinion over the card, like it, categorize it, etc.
+
+    Every time you pronounce your self on a card, your opinion is evaluated with respect to the card opinions' history to determine if you are supporting the majority or you are contradicting it.
+
+    Then your reputation increases or not, dependingon how many more users pronounce themselves after you, and support your opinion or not.
+
+    Any user may start giving his or her opinion on any content and start earning reputation points. The more points you have the higher is your Cat level.
+
+  - #### Rewards
+
+    
+
+  - #### Services
+  - #### Black List
+    
+    
+
+
 
 
 # Economy
